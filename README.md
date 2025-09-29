@@ -1,6 +1,6 @@
 # ByteTrail
 
-Minimal 3D light-cycle game built with Three.js and Vite.
+A minimal, neon, light-cycle (Tron-like) arena game inspired by Snake.io. Dash across the grid to grab coins, grow your score, and outplay opponents. Dodge enemy trails, cut them off with yours.Simple to learn, hard to master—perfect for quick matches or leaderboard climbs.
 
 Quick start
 
