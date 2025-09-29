@@ -1,0 +1,124 @@
+/* Game Menu Styles */
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.menu-container {
+    background: rgba(0, 20, 40, 0.95);
+    border: 2px solid #00D4FF;
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    box-shadow: 0 0 20px #00D4FF;
+    animation: glow 2s infinite alternate;
+}
+
+.menu-title {
+    color: #00D4FF;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #00D4FF;
+}
+
+.menu-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    color: #00D4FF;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+}
+
+.form-group input[type="text"] {
+    background: rgba(0, 30, 60, 0.9);
+    border: 1px solid #00D4FF;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group input[type="text"]:focus {
+    box-shadow: 0 0 10px #00D4FF;
+}
+
+.color-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.color-option {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s;
+}
+
+.color-option:hover {
+    transform: scale(1.1);
+}
+
+.color-option.selected {
+    border-color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+.start-button {
+    background: #00D4FF;
+    color: #000;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: all 0.3s;
+}
+
+.start-button:hover {
+    background: #fff;
+    box-shadow: 0 0 20px #00D4FF;
+}
+
+@keyframes glow {
+    from {
+        box-shadow: 0 0 20px #00D4FF;
+    }
+    to {
+        box-shadow: 0 0 30px #00D4FF;
+    }
+}
+
+.error-message {
+    color: #ff4444;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+} 
