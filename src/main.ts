@@ -1116,7 +1116,7 @@ function createStartMenu() {
     
     const menuHTML = `
         <div class="menu-container">
-            <h1 class="menu-title">Light Cycle Arena</h1>
+            <h1 class="menu-title">ByteTrail Arena</h1>
             <form class="menu-form" id="startForm">
                 <div class="form-group">
                     <label for="playerName">Enter Your Name</label>

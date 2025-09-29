@@ -1,5 +1,5 @@
 {
-  "name": "cargame",
+  "name": "bytetrailgame",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "ByteTrail — a 3D light-cycle style game built with Three.js and Vite",
   "dependencies": {
     "three": "^0.162.0"
   },
